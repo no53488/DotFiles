@@ -183,7 +183,7 @@
         ""
       ]
     },
-    "on-click": "pavucontrol"
+    "on-click": "pa-applet"
   },
   "custom/media": {
     "format": "{icon} {text}",

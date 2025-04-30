@@ -10,7 +10,6 @@
 return {
   -- add gruvbox
   { "ellisonleao/gruvbox.nvim" },
-
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
@@ -18,8 +17,6 @@ return {
       colorscheme = "gruvbox",
     },
   },
-
-
   {"echasnovski/mini.icons", opts = {} },
 
   { "nvim-tree/nvim-web-devicons", opts = {} },
@@ -106,11 +103,6 @@ return {
     },
   },
 
-  -- for typescript, LazyVim also includes extra specs to properly setup lspconfig,
-  -- treesitter, mason and typescript.nvim. So instead of the above, you can use:
-  { import = "lazyvim.plugins.extras.lang.typescript" },
-
-  -- add more treesitter parsers
   {
     "nvim-treesitter/nvim-treesitter",
     opts = {
@@ -133,24 +125,6 @@ return {
     },
   },
 
-  -- since `vim.tbl_deep_extend`, can only merge tables and not lists, the code above
-  -- would overwrite `ensure_installed` with the new value.
-  -- If you'd rather extend the default config, use the code below instead:
-  {
-    "nvim-treesitter/nvim-treesitter",
-    opts = function(_, opts)
-      -- add tsx and treesitter
-      vim.list_extend(opts.ensure_installed, {
-        "tsx",
-        "typescript",
-      })
-    end,
-  },
-
-  -- the opts function can also be used to change the default opts:
-  
-
-  -- or you can return new options to override all the defaults
   {
     "nvim-lualine/lualine.nvim",
     event = "VeryLazy",
@@ -161,12 +135,10 @@ return {
     end,
   },
 
-  -- use mini.starter instead of alpha
 
   -- add jsonls and schemastore packages, and setup treesitter for json, json5 and jsonc
   { import = "lazyvim.plugins.extras.lang.json" },
 
-  -- add any tools you want to have installed below
   {
     "williamboman/mason.nvim",
     opts = {
@@ -178,6 +150,7 @@ return {
       },
     },
   },
+
   {
     "lervag/vimtex",
     lazy = false,     -- we don't want to lazy load VimTeX
