@@ -1,0 +1,28 @@
+Initialize language server at  file:///home/mochi/portfolio
+Initialize new ts service at  /home/mochi/portfolio/tsconfig.json
+Trying to load configs for /home/mochi/portfolio
+Loaded config at  /home/mochi/portfolio/svelte.config.js
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 0
+Total: 15
+Reloading ts service at  /home/mochi/portfolio/tsconfig.json  due to config updated
+Trying to load configs for /home/mochi/portfolio
+Reloading ts service at  /home/mochi/portfolio/tsconfig.json  due to config updated
+Trying to load configs for /home/mochi/portfolio
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 136
+Total: 151
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 136
+Total: 151
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 136
+Total: 151

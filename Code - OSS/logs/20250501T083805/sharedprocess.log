@@ -1,0 +1,7 @@
+2025-05-01 11:46:16.767 [info] Getting Manifest... svelte.svelte-vscode
+2025-05-01 11:46:18.635 [info] Installing extension: svelte.svelte-vscode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/mochi/.vscode-oss/extensions/extensions.json","path":"/home/mochi/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.99.3","date":"2025-04-16T19:59:52.773Z"}}
+2025-05-01 11:46:25.119 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-05-01 11:46:25.119 [info] Extension signature verification is not done: svelte.svelte-vscode
+2025-05-01 11:46:28.241 [info] Extracted extension to file:///home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal: svelte.svelte-vscode
+2025-05-01 11:46:28.375 [info] Renamed to /home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal
+2025-05-01 11:46:28.391 [info] Extension installed successfully: svelte.svelte-vscode vscode-userdata:/home/mochi/.vscode-oss/extensions/extensions.json

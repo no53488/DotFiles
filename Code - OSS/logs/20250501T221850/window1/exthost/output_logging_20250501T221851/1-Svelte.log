@@ -1,0 +1,1207 @@
+Initialize language server at  file:///home/mochi/portfolio
+Initialize new ts service at  /home/mochi/portfolio/tsconfig.json
+Trying to load configs for /home/mochi/portfolio
+Loaded config at  /home/mochi/portfolio/svelte.config.js
+SnapshotManager File Statistics:
+Project files: 14
+Svelte files: 5
+From node_modules: 0
+Total: 14
+Reloading ts service at  /home/mochi/portfolio/tsconfig.json  due to config updated
+Trying to load configs for /home/mochi/portfolio
+Reloading ts service at  /home/mochi/portfolio/tsconfig.json  due to config updated
+Trying to load configs for /home/mochi/portfolio
+SnapshotManager File Statistics:
+Project files: 14
+Svelte files: 5
+From node_modules: 134
+Total: 148
+[Error - 10:19:09 PM] Request textDocument/codeLens failed.
+  Message: Request textDocument/codeLens failed with message: Cannot read properties of undefined (reading 'filter')
+  Code: -32603 
+SnapshotManager File Statistics:
+Project files: 14
+Svelte files: 5
+From node_modules: 134
+Total: 148
+[Is [CompileError]: `</label>` attempted to close an element that was not open
+https://svelte.dev/e/element_invalid_closing_tag] {
+  code: 'element_invalid_closing_tag',
+  filename: '(unknown)',
+  position: [ 2007, 2007 ],
+  start: { line: 35, column: 33, character: 2007 },
+  end: { line: 35, column: 33, character: 2007 },
+  frame: '33:     <div>\n' +
+    '34:       <input type="checkbox" id="theme-toggle" checked={darkMode} onclick={handleSwitchDarkMode} />\n' +
+    '35:       <label for="theme-toggle"/></label>\n' +
+    '                                     ^\n' +
+    '36:   </div>\n' +
+    '37: '
+}
+SnapshotManager File Statistics:
+Project files: 14
+Svelte files: 5
+From node_modules: 134
+Total: 148
+SnapshotManager File Statistics:
+Project files: 14
+Svelte files: 5
+From node_modules: 167
+Total: 181
+SnapshotManager File Statistics:
+Project files: 14
+Svelte files: 5
+From node_modules: 167
+Total: 181
+SnapshotManager File Statistics:
+Project files: 14
+Svelte files: 5
+From node_modules: 167
+Total: 181
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+SnapshotManager File Statistics:
+Project files: 14
+Svelte files: 5
+From node_modules: 167
+Total: 181
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+SnapshotManager File Statistics:
+Project files: 14
+Svelte files: 5
+From node_modules: 167
+Total: 181
+SnapshotManager File Statistics:
+Project files: 14
+Svelte files: 5
+From node_modules: 167
+Total: 181
+SnapshotManager File Statistics:
+Project files: 14
+Svelte files: 5
+From node_modules: 167
+Total: 181
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+SnapshotManager File Statistics:
+Project files: 14
+Svelte files: 5
+From node_modules: 167
+Total: 181
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+SnapshotManager File Statistics:
+Project files: 14
+Svelte files: 5
+From node_modules: 167
+Total: 181
+Error leaving node  {
+  type: 'Element',
+  start: 152,
+  end: 154,
+  name: 's',
+  attributes: [],
+  children: []
+}
+Error leaving node  {
+  type: 'Element',
+  start: 152,
+  end: 155,
+  name: 'st',
+  attributes: [],
+  children: []
+}
+Error leaving node  {
+  type: 'Element',
+  start: 152,
+  end: 156,
+  name: 'sty',
+  attributes: [],
+  children: []
+}
+Error leaving node  {
+  type: 'Element',
+  start: 152,
+  end: 157,
+  name: 'styl',
+  attributes: [],
+  children: []
+}
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+SnapshotManager File Statistics:
+Project files: 14
+Svelte files: 5
+From node_modules: 167
+Total: 181
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+[Is [CompileError]: Expected a valid CSS identifier
+https://svelte.dev/e/css_expected_identifier] {
+  code: 'css_expected_identifier',
+  filename: '(unknown)',
+  position: [ 1677, 1677 ],
+  start: { line: 32, column: 8, character: 1677 },
+  end: { line: 32, column: 8, character: 1677 },
+  frame: '30:       background-color: theme(--color-orange-100);\n' +
+    '31:     }\n' +
+    '32:     h1 :{\n' +
+    '            ^\n' +
+    '33:       font-size: 20px;\n' +
+    '34:       font-family: "Syne Mono", monospace;'
+}
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+SnapshotManager File Statistics:
+Project files: 14
+Svelte files: 5
+From node_modules: 167
+Total: 181
+[Is [CompileError]: Expected a valid CSS identifier
+https://svelte.dev/e/css_expected_identifier] {
+  code: 'css_expected_identifier',
+  filename: '(unknown)',
+  position: [ 1673, 1673 ],
+  start: { line: 32, column: 4, character: 1673 },
+  end: { line: 32, column: 4, character: 1673 },
+  frame: '30:       background-color: theme(--color-orange-100);\n' +
+    '31:     }\n' +
+    '32:     {\n' +
+    '        ^\n' +
+    '33:       font-size: 20px;\n' +
+    '34:       font-family: "Syne Mono", monospace;'
+}
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+[Is [CompileError]: A `:global` selector can only be modified if it is a descendant of other selectors
+https://svelte.dev/e/css_global_block_invalid_modifier_start] {
+  code: 'css_global_block_invalid_modifier_start',
+  filename: '(unknown)',
+  position: [ 171, 179 ],
+  start: { line: 8, column: 11, character: 171 },
+  end: { line: 8, column: 19, character: 179 },
+  frame: ' 6: \n' +
+    ' 7: <style>\n' +
+    ' 8:     :global#myVideo {\n' +
+    '                       ^\n' +
+    ' 9:         width: 80%;\n' +
+    '10:         height: 200px;'
+}
+[Is [CompileError]: Unexpected end of input
+https://svelte.dev/e/unexpected_eof] {
+  code: 'unexpected_eof',
+  filename: '(unknown)',
+  position: [ 273, 273 ],
+  start: { line: 13, column: 8, character: 273 },
+  end: { line: 13, column: 8, character: 273 },
+  frame: '11:         margin: 40px 0 40px 10%;\n12:     }\n13: </style>\n            ^'
+}
+SnapshotManager File Statistics:
+Project files: 14
+Svelte files: 5
+From node_modules: 167
+Total: 181
+SnapshotManager File Statistics:
+Project files: 14
+Svelte files: 5
+From node_modules: 167
+Total: 181
+SnapshotManager File Statistics:
+Project files: 14
+Svelte files: 5
+From node_modules: 167
+Total: 181
+SnapshotManager File Statistics:
+Project files: 14
+Svelte files: 5
+From node_modules: 167
+Total: 181
+SnapshotManager File Statistics:
+Project files: 14
+Svelte files: 5
+From node_modules: 167
+Total: 181
+SnapshotManager File Statistics:
+Project files: 14
+Svelte files: 5
+From node_modules: 167
+Total: 181
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+SnapshotManager File Statistics:
+Project files: 16
+Svelte files: 7
+From node_modules: 167
+Total: 183
+Reloading ts service at  /home/mochi/portfolio/tsconfig.json  due to config updated
+Trying to load configs for /home/mochi/portfolio
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 134
+Total: 149
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 134
+Total: 149
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 134
+Total: 149
+SnapshotManager File Statistics:
+Project files: 16
+Svelte files: 7
+From node_modules: 167
+Total: 183
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+Error leaving node  {
+  type: 'InlineComponent',
+  start: 1582,
+  end: 1866,
+  name: 'Button',
+  attributes: [],
+  children: [
+    { type: 'Text', start: 1590, end: 1591, raw: '\n', data: '\n' },
+    {
+      type: 'Element',
+      start: 1591,
+      end: 1866,
+      name: 'style',
+      attributes: [Array],
+      children: [Array]
+    }
+  ]
+}
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+[Is [CompileError]: Expected token >
+https://svelte.dev/e/expected_token] {
+  code: 'expected_token',
+  filename: '(unknown)',
+  position: [ 793, 793 ],
+  start: { line: 31, column: 2, character: 793 },
+  end: { line: 31, column: 2, character: 793 },
+  frame: '29:     <input type="checkbox" id="theme-toggle" />\n' +
+    '30:     <label for="theme-toggle"\n' +
+    '31: </div>\n' +
+    '      ^\n' +
+    '32: \n' +
+    '33: '
+}
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+[Is [CompileError]: `<button>` was left open
+https://svelte.dev/e/element_unclosed] {
+  code: 'element_unclosed',
+  filename: '(unknown)',
+  position: [ 112, 113 ],
+  start: { line: 6, column: 4, character: 112 },
+  end: { line: 6, column: 5, character: 113 },
+  frame: '4:     }\n' +
+    '5: </script>\n' +
+    '6:     <button on:click={toggle}>\n' +
+    '        ^\n' +
+    '7:         <div>\n' +
+    '8:             <input type="checkbox" id="theme-toggle" />'
+}
+[Is [CompileError]: Expected token >
+https://svelte.dev/e/expected_token] {
+  code: 'expected_token',
+  filename: '(unknown)',
+  position: [ 793, 793 ],
+  start: { line: 31, column: 2, character: 793 },
+  end: { line: 31, column: 2, character: 793 },
+  frame: '29:     <input type="checkbox" id="theme-toggle" />\n' +
+    '30:     <label for="theme-toggle"\n' +
+    '31: </div>\n' +
+    '      ^\n' +
+    '32: \n' +
+    '33: '
+}
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+[Is [CompileError]: Expected token >
+https://svelte.dev/e/expected_token] {
+  code: 'expected_token',
+  filename: '(unknown)',
+  position: [ 793, 793 ],
+  start: { line: 31, column: 2, character: 793 },
+  end: { line: 31, column: 2, character: 793 },
+  frame: '29:     <input type="checkbox" id="theme-toggle" />\n' +
+    '30:     <label for="theme-toggle"\n' +
+    '31: </div>\n' +
+    '      ^\n' +
+    '32: \n' +
+    '33: '
+}
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+    at cast (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:3350:16)
+    at doChange28 (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:161692:28)
+    at /home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:161684:79
+    at _ChangeTracker.with (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:178070:5)
+    at Object.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:161684:62)
+    at /home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:154260:46
+    at flatMap (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:154260:10)
+    at /home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:152524:33
+    at flatMap (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:2536:17)
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+    at cast (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:3350:16)
+    at doChange28 (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:161692:28)
+    at /home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:161684:79
+    at _ChangeTracker.with (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:178070:5)
+    at Object.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:161684:62)
+    at /home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:154260:46
+    at flatMap (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:154260:10)
+    at /home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:152524:33
+    at flatMap (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:2536:17)
+Error: length < 0
+    at createTextSpan (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:14753:11)
+    at createTextSpanFromBounds (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:14758:10)
+    at Object.getCodeFixesAtPosition (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:152520:18)
+    at CodeActionsProviderImpl.applyQuickfix (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/typescript/features/CodeActionsProvider.js:336:50)
+    at async CodeActionsProviderImpl.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/typescript/features/CodeActionsProvider.js:50:20)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 1)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+Error: length < 0
+    at createTextSpan (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:14753:11)
+    at createTextSpanFromBounds (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:14758:10)
+    at Object.getCodeFixesAtPosition (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:152520:18)
+    at CodeActionsProviderImpl.applyQuickfix (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/typescript/features/CodeActionsProvider.js:336:50)
+    at async CodeActionsProviderImpl.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/typescript/features/CodeActionsProvider.js:50:20)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 1)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isCallExpression'.
+    at cast (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:3350:16)
+    at addMissingNewOperator (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:160429:16)
+    at /home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:160422:79
+    at _ChangeTracker.with (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:178070:5)
+    at Object.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:160422:62)
+    at /home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:154260:46
+    at flatMap (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:154260:10)
+    at /home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:152524:33
+    at flatMap (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:2536:17)
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isCallExpression'.
+    at cast (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:3350:16)
+    at addMissingNewOperator (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:160429:16)
+    at /home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:160422:79
+    at _ChangeTracker.with (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:178070:5)
+    at Object.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:160422:62)
+    at /home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:154260:46
+    at flatMap (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:154260:10)
+    at /home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:152524:33
+    at flatMap (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:2536:17)
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isCallExpression'.
+    at cast (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:3350:16)
+    at addMissingNewOperator (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:160429:16)
+    at /home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:160422:79
+    at _ChangeTracker.with (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:178070:5)
+    at Object.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:160422:62)
+    at /home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:154260:46
+    at flatMap (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:154260:10)
+    at /home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:152524:33
+    at flatMap (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:2536:17)
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isCallExpression'.
+    at cast (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:3350:16)
+    at addMissingNewOperator (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:160429:16)
+    at /home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:160422:79
+    at _ChangeTracker.with (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:178070:5)
+    at Object.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:160422:62)
+    at /home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:154260:46
+    at flatMap (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:154260:10)
+    at /home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:152524:33
+    at flatMap (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:2536:17)
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isCallExpression'.
+    at cast (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:3350:16)
+    at addMissingNewOperator (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:160429:16)
+    at /home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:160422:79
+    at _ChangeTracker.with (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:178070:5)
+    at Object.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:160422:62)
+    at /home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:154260:46
+    at flatMap (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:154260:10)
+    at /home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:152524:33
+    at flatMap (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/typescript/lib/typescript.js:2536:17)
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+[Is [CompileError]: Mixing old (on:click) and new syntaxes for event handling is not allowed. Use only the onclick syntax
+https://svelte.dev/e/mixed_event_handler_syntaxes] {
+  code: 'mixed_event_handler_syntaxes',
+  filename: '(unknown)',
+  position: [ 339, 356 ],
+  start: { line: 13, column: 12, character: 339 },
+  end: { line: 13, column: 29, character: 356 },
+  frame: '11:     <input onclick={toggle} type="checkbox" id="theme-toggle" />\n' +
+    '12:     <label for="theme-toggle"></label>\n' +
+    '13:     <button on:click={toggle}>\n' +
+    '                                 ^\n' +
+    '14:     <slot/>\n' +
+    '15:     '
+}
+Reloading ts service at  /home/mochi/portfolio/tsconfig.json  due to config updated
+Trying to load configs for /home/mochi/portfolio
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 134
+Total: 149
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+[Is [CompileError]: `</button>` attempted to close an element that was not open
+https://svelte.dev/e/element_invalid_closing_tag] {
+  code: 'element_invalid_closing_tag',
+  filename: '(unknown)',
+  position: [ 371, 371 ],
+  start: { line: 15, column: 0, character: 371 },
+  end: { line: 15, column: 0, character: 371 },
+  frame: '13:     <button onclick={toggle}></button>\n' +
+    '14:     \n' +
+    '15: </button>\n' +
+    '    ^\n' +
+    '16: </div>\n' +
+    '17:     '
+}
+[Is [CompileError]: Expected token >
+https://svelte.dev/e/expected_token] {
+  code: 'expected_token',
+  filename: '(unknown)',
+  position: [ 363, 363 ],
+  start: { line: 15, column: 2, character: 363 },
+  end: { line: 15, column: 2, character: 363 },
+  frame: '13:     <button onclick={toggle}\n' +
+    '14:     \n' +
+    '15: </button>\n' +
+    '      ^\n' +
+    '16: </div>\n' +
+    '17:     '
+}
+[Is [CompileError]: Mixing old (on:click) and new syntaxes for event handling is not allowed. Use only the onclick syntax
+https://svelte.dev/e/mixed_event_handler_syntaxes] {
+  code: 'mixed_event_handler_syntaxes',
+  filename: '(unknown)',
+  position: [ 339, 356 ],
+  start: { line: 13, column: 12, character: 339 },
+  end: { line: 13, column: 29, character: 356 },
+  frame: '11:     <input onclick={toggle} type="checkbox" id="theme-toggle" />\n' +
+    '12:     <label for="theme-toggle"></label>\n' +
+    '13:     <button on:click={toggle}>\n' +
+    '                                 ^\n' +
+    '14:     <slot/>\n' +
+    '15:     '
+}
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+[Is [CompileError]: Expected token >
+https://svelte.dev/e/expected_token] {
+  code: 'expected_token',
+  filename: '(unknown)',
+  position: [ 377, 377 ],
+  start: { line: 16, column: 2, character: 377 },
+  end: { line: 16, column: 2, character: 377 },
+  frame: '14:         <slo\n15:     \n16: </button>\n      ^\n17: </div>\n18:     '
+}
+[Is [CompileError]: Expected token >
+https://svelte.dev/e/expected_token] {
+  code: 'expected_token',
+  filename: '(unknown)',
+  position: [ 378, 378 ],
+  start: { line: 16, column: 2, character: 378 },
+  end: { line: 16, column: 2, character: 378 },
+  frame: '14:         <slot\n15:     \n16: </button>\n      ^\n17: </div>\n18:     '
+}
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+TypeError: Cannot read properties of undefined (reading 'start')
+    at getSvelteIgnoreEdit (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:100:64)
+    at createSvelteIgnoreQuickfixAction (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:73:17)
+    at createQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:51:22)
+    at getQuickfixActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/getQuickfixes.js:21:36)
+    at async getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/svelte/features/getCodeActions/index.js:12:16)
+    at async PluginHost.tryExecutePlugin (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:394:20)
+    at async Promise.all (index 0)
+    at async PluginHost.execute (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:371:24)
+    at async PluginHost.getCodeActions (/home/mochi/.vscode-oss/extensions/svelte.svelte-vscode-109.5.4-universal/node_modules/svelte-language-server/dist/src/plugins/PluginHost.js:168:47)
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182
+SnapshotManager File Statistics:
+Project files: 15
+Svelte files: 6
+From node_modules: 167
+Total: 182

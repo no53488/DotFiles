@@ -1,0 +1,1 @@
+2025-05-01 11:54:40.329 [error] Failed to set sticky bit on /tmp/mochi-code-oss-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/mochi-code-oss-zsh'

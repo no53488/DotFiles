@@ -1,0 +1,107 @@
+13:00:06.285: Platform: Wayland
+13:00:06.285: CPU Name: 12th Gen Intel(R) Core(TM) i5-1235U
+13:00:06.285: CPU Speed: 1239.519MHz
+13:00:06.285: Physical Cores: 10, Logical Cores: 12
+13:00:06.285: Physical Memory: 7659MB Total, 6543MB Free
+13:00:06.285: Kernel Version: Linux 6.14.7-arch2-1
+13:00:06.285: Distribution: "Arch Linux" Unknown
+13:00:06.285: Desktop Environment: Hyprland (Hyprland)
+13:00:06.286: Session Type: wayland
+13:00:06.290: Qt Version: 6.9.0 (runtime), 6.9.0 (compiled)
+13:00:06.290: Portable mode: false
+13:00:06.430: OBS 31.0.3 (linux)
+13:00:06.430: ---------------------------------
+13:00:06.431: ---------------------------------
+13:00:06.431: audio settings reset:
+13:00:06.431: 	samples per sec: 48000
+13:00:06.431: 	speakers:        2
+13:00:06.431: 	max buffering:   960 milliseconds
+13:00:06.431: 	buffering type:  dynamically increasing
+13:00:06.434: ---------------------------------
+13:00:06.434: Initializing OpenGL...
+13:00:06.434: Using EGL/Wayland
+13:00:06.524: Initialized EGL 1.5
+13:00:06.555: Loading up OpenGL on adapter Intel Mesa Intel(R) Graphics (ADL GT2)
+13:00:06.555: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.1.1-arch1.1, shading language 4.60
+13:00:06.910: ---------------------------------
+13:00:06.910: video settings reset:
+13:00:06.910: 	base resolution:   1920x1080
+13:00:06.910: 	output resolution: 1280x720
+13:00:06.910: 	downscale filter:  Bicubic
+13:00:06.910: 	fps:               30/1
+13:00:06.910: 	format:            NV12
+13:00:06.910: 	YUV mode:          Rec. 709/Partial
+13:00:06.910: NV12 texture support enabled
+13:00:06.910: P010 texture support not available
+13:00:06.928: Audio monitoring device:
+13:00:06.928: 	name: Default
+13:00:06.928: 	id: default
+13:00:06.928: ---------------------------------
+13:00:06.944: Failed to load 'en-US' text for module: 'decklink-captions.so'
+13:00:06.961: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+13:00:06.977: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+13:00:06.977: Failed to initialize module 'decklink.so'
+13:00:07.291: [pipewire] Available capture sources:
+13:00:07.291: [pipewire]     - Monitor source
+13:00:07.291: [pipewire]     - Window source
+13:00:07.341: v4l2loopback not installed, virtual camera not registered
+13:00:07.472: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+13:00:07.472: FFmpeg VAAPI H264 encoding not supported
+13:00:07.472: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+13:00:07.472: FFmpeg VAAPI AV1 encoding not supported
+13:00:07.472: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+13:00:07.472: FFmpeg VAAPI HEVC encoding not supported
+13:00:08.493: [NVENC] Test process failed: cuda_init_100
+13:00:08.493: NVENC not supported
+13:00:08.493: Failed to initialize module 'obs-nvenc.so'
+13:00:08.694: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+13:00:08.694: 
+13:00:08.699: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+13:00:08.699: 
+13:00:08.699: Module '/usr/lib/obs-plugins/obs-websocket.so' not loaded
+13:00:08.745: ---------------------------------
+13:00:08.745:   Loaded Modules:
+13:00:08.745:     text-freetype2.so
+13:00:08.745:     rtmp-services.so
+13:00:08.745:     obs-x264.so
+13:00:08.745:     obs-webrtc.so
+13:00:08.745:     obs-vst.so
+13:00:08.745:     obs-transitions.so
+13:00:08.745:     obs-qsv11.so
+13:00:08.745:     obs-outputs.so
+13:00:08.745:     obs-libfdk.so
+13:00:08.745:     obs-filters.so
+13:00:08.745:     obs-ffmpeg.so
+13:00:08.745:     linux-v4l2.so
+13:00:08.745:     linux-pulseaudio.so
+13:00:08.745:     linux-pipewire.so
+13:00:08.745:     linux-jack.so
+13:00:08.745:     linux-capture.so
+13:00:08.745:     linux-alsa.so
+13:00:08.745:     image-source.so
+13:00:08.745:     frontend-tools.so
+13:00:08.745:     decklink-output-ui.so
+13:00:08.745:     decklink-captions.so
+13:00:08.745: ---------------------------------
+13:00:08.745: ---------------------------------
+13:00:08.745: Available Encoders:
+13:00:08.745:   Video Encoders:
+13:00:08.745: 	- ffmpeg_svt_av1 (SVT-AV1)
+13:00:08.745: 	- ffmpeg_aom_av1 (AOM AV1)
+13:00:08.745: 	- obs_x264 (x264)
+13:00:08.745:   Audio Encoders:
+13:00:08.745: 	- ffmpeg_aac (FFmpeg AAC)
+13:00:08.745: 	- ffmpeg_opus (FFmpeg Opus)
+13:00:08.745: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+13:00:08.745: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+13:00:08.745: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+13:00:08.745: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+13:00:08.745: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+13:00:08.745: 	- libfdk_aac (libfdk AAC)
+13:00:08.745: ==== Startup complete ===============================================
+13:00:08.756: No scene file found, creating default scene
+13:00:08.806: All scene data cleared
+13:00:08.806: ------------------------------------------------
+13:00:08.817: Switched to scene 'Scene'
+13:00:08.817: Created scene collection 'Untitled' (clean, Untitled.json)
+13:00:08.817: ------------------------------------------------

@@ -1,0 +1,4 @@
+2025-05-02 21:05:43.378 [info] Log level: Info
+2025-05-02 21:05:56.389 [info] Log level: Info
+2025-05-02 21:05:56.860 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-05-02 21:08:20.051 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for no53488/portfolio: Error: No GitHub authentication session available.

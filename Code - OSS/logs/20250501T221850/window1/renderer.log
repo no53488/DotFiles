@@ -1,0 +1,4 @@
+2025-05-01 22:18:51.209 [info] Started local extension host with pid 475997.
+2025-05-01 22:18:54.030 [info] [perf] Render performance baseline is 14ms
+2025-05-01 23:00:04.781 [error] [text file model] handleSaveError(5) - exit - resulted in a save error: Error: Unable to write file '/home/mochi/portfolio/src/app.css' (Error: File Modified Since) file:///home/mochi/portfolio/src/app.css
+2025-05-01 23:00:17.145 [error] [text file model] handleSaveError(5) - exit - resulted in a save error: Error: Unable to write file '/home/mochi/portfolio/src/app.css' (Error: File Modified Since) file:///home/mochi/portfolio/src/app.css

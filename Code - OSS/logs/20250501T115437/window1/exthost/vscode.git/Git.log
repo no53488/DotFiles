@@ -1,0 +1,60 @@
+2025-05-01 11:54:41.231 [info] [main] Log level: Info
+2025-05-01 11:54:41.231 [info] [main] Validating found git in: "git"
+2025-05-01 11:54:41.231 [info] [main] Using git "2.49.0" from "git"
+2025-05-01 11:54:41.231 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-01 11:54:41.231 [info] > git rev-parse --show-toplevel [15ms]
+2025-05-01 11:54:41.231 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2025-05-01 11:54:41.231 [info] [Model][openRepository] Opened repository: /home/mochi/portfolio
+2025-05-01 11:54:41.232 [info] > git rev-parse --show-toplevel [56ms]
+2025-05-01 11:54:41.233 [info] > git config --get commit.template [67ms]
+2025-05-01 11:54:41.250 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-05-01 11:54:41.250 [info] > git rev-parse --show-toplevel [11ms]
+2025-05-01 11:54:41.258 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/mochi/portfolio/.git/refs/remotes/origin/main'
+2025-05-01 11:54:41.264 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2025-05-01 11:54:41.306 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [28ms]
+2025-05-01 11:54:41.308 [info] > git rev-parse --show-toplevel [45ms]
+2025-05-01 11:54:41.326 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-01 11:54:41.337 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-01 11:54:41.346 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-01 11:54:41.346 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-01 11:54:41.486 [info] > git show --textconv :src/routes/+page.svelte [8ms]
+2025-05-01 11:54:41.489 [info] > git ls-files --stage -- src/routes/+page.svelte [3ms]
+2025-05-01 11:54:41.500 [info] > git cat-file -s e32c2e254d6471df2319b7cb03158eba487f1331 [3ms]
+2025-05-01 11:54:41.536 [info] > git status -z -uall [266ms]
+2025-05-01 11:54:41.536 [info] > git blame --root --incremental 3f272894dc4c06209bff9ef5f660452ba415e85e -- src/routes/+page.svelte [3ms]
+2025-05-01 11:54:41.571 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2025-05-01 11:54:41.581 [info] > git config --get --local branch.main.vscode-merge-base [3ms]
+2025-05-01 11:54:41.589 [info] > git config --get commit.template [18ms]
+2025-05-01 11:54:41.637 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [49ms]
+2025-05-01 11:54:41.656 [info] > git merge-base refs/heads/main refs/remotes/origin/main [12ms]
+2025-05-01 11:54:41.661 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [40ms]
+2025-05-01 11:54:41.671 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/mochi/portfolio/.git/refs/remotes/origin/main'
+2025-05-01 11:54:41.672 [info] > git diff --name-status -z --diff-filter=ADMR 3f272894dc4c06209bff9ef5f660452ba415e85e...refs/remotes/origin/main [11ms]
+2025-05-01 11:54:41.673 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-05-01 11:54:41.687 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-05-01 11:54:41.764 [info] > git check-ignore -v -z --stdin [5ms]
+2025-05-01 11:54:41.919 [info] > git status -z -uall [241ms]
+2025-05-01 11:54:52.591 [info] > git config --get commit.template [13ms]
+2025-05-01 11:54:52.592 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-05-01 11:54:52.600 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/mochi/portfolio/.git/refs/remotes/origin/main'
+2025-05-01 11:54:52.602 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-05-01 11:54:52.618 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-01 11:54:52.813 [info] > git status -z -uall [204ms]
+2025-05-01 11:54:57.836 [info] > git config --get commit.template [7ms]
+2025-05-01 11:54:57.837 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-01 11:54:57.847 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/mochi/portfolio/.git/refs/remotes/origin/main'
+2025-05-01 11:54:57.849 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-05-01 11:54:57.862 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-01 11:54:58.063 [info] > git status -z -uall [208ms]
+2025-05-01 12:24:26.413 [info] > git config --get commit.template [24ms]
+2025-05-01 12:24:26.415 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-05-01 12:24:26.436 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/mochi/portfolio/.git/refs/remotes/origin/main'
+2025-05-01 12:24:26.441 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2025-05-01 12:24:26.482 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-05-01 12:24:26.691 [info] > git status -z -uall [234ms]
+2025-05-01 12:24:31.712 [info] > git config --get commit.template [6ms]
+2025-05-01 12:24:31.713 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-01 12:24:31.722 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/mochi/portfolio/.git/refs/remotes/origin/main'
+2025-05-01 12:24:31.724 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-05-01 12:24:31.742 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-01 12:24:31.947 [info] > git status -z -uall [214ms]

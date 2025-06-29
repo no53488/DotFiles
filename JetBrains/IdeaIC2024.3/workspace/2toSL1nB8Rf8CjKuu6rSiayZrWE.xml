@@ -1,0 +1,471 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="cs233termproject" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="4b1c433e:BranchNodeDescriptor$Root" />
+        <item name="LOCAL" type="7ab31ef7:BranchNodeDescriptor$TopLevelGroup" />
+      </path>
+      <path>
+        <item name="ROOT" type="4b1c433e:BranchNodeDescriptor$Root" />
+        <item name="REMOTE" type="7ab31ef7:BranchNodeDescriptor$TopLevelGroup" />
+      </path>
+      <path>
+        <item name="ROOT" type="4b1c433e:BranchNodeDescriptor$Root" />
+        <item name="REMOTE" type="7ab31ef7:BranchNodeDescriptor$TopLevelGroup" />
+        <item name="REMOTE:origin" type="9a375a70:BranchNodeDescriptor$RemoteGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="1dbwtm6yacjhc" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="text-editor" selected="true" />
+        </entry>
+        <tab><![CDATA[{"tabTitle":"README.md","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,96,10,24,105,99,111,110,115,47,77,97,114,107,100,111,119,110,80,108,117,103,105,110,46,115,118,103,18,24,105,99,111,110,115,47,101,120,112,117,105,47,109,97,114,107,100,111,119,110,46,115,118,103,26,29,111,114,103,46,105,110,116,101,108,108,105,106,46,112,108,117,103,105,110,115,46,109,97,114,107,100,111,119,110,40,-33,-55,-17,-63,-7,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/Account.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="252">
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="53" />
+              <folding>
+                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#1191#1192#0" expanded="true" />
+                <element signature="e#1228#1229#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"Account.java","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,80,10,31,102,105,108,101,84,121,112,101,115,47,106,97,118,97,79,117,116,115,105,100,101,83,111,117,114,99,101,46,115,118,103,18,24,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,97,118,97,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-11,-102,-33,91,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/Main.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="90">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"Main.java","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,80,10,31,102,105,108,101,84,121,112,101,115,47,106,97,118,97,79,117,116,115,105,100,101,83,111,117,114,99,101,46,115,118,103,18,24,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,97,118,97,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-11,-102,-33,91,48,0]}]]></tab>
+      </file>
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AddData.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="144">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"AddData.java","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,80,10,31,102,105,108,101,84,121,112,101,115,47,106,97,118,97,79,117,116,115,105,100,101,83,111,117,114,99,101,46,115,118,103,18,24,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,97,118,97,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-11,-102,-33,91,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/AccountTest.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="1098">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"AccountTest.java","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,80,10,31,102,105,108,101,84,121,112,101,115,47,106,97,118,97,79,117,116,115,105,100,101,83,111,117,114,99,101,46,115,118,103,18,24,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,97,118,97,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-11,-102,-33,91,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/Menu.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="1584">
+              <caret line="89" column="30" lean-forward="true" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"Menu.java","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,80,10,31,102,105,108,101,84,121,112,101,115,47,106,97,118,97,79,117,116,115,105,100,101,83,111,117,114,99,101,46,115,118,103,18,24,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,97,118,97,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-11,-102,-33,91,48,0]}]]></tab>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "JAVA": {
+      "usageCount": 43,
+      "lastUsed": 1741027835144
+    },
+    "IDEA_MODULE": {
+      "usageCount": 1,
+      "lastUsed": 1741018305563
+    },
+    "PLAIN_TEXT": {
+      "usageCount": 11,
+      "lastUsed": 1741022421707
+    },
+    "DIFF": {
+      "usageCount": 3,
+      "lastUsed": 1741027138750
+    },
+    "Markdown": {
+      "usageCount": 6,
+      "lastUsed": 1741027835060
+    },
+    "CLASS": {
+      "usageCount": 1,
+      "lastUsed": 1741026621855
+    }
+  }
+}]]></component>
+  <component name="GitBranchesPopupTreeState">
+    <expand>
+      <path>
+        <item name="TreeRoot" type="41d8a9c2:GitBranchesTreeModel$TreeRoot" />
+        <item name="RECENT" type="98a275ee:GitBranchType$RECENT" />
+      </path>
+      <path>
+        <item name="TreeRoot" type="41d8a9c2:GitBranchesTreeModel$TreeRoot" />
+        <item name="LOCAL" type="6e158aa5:GitBranchType$LOCAL" />
+      </path>
+      <path>
+        <item name="TreeRoot" type="41d8a9c2:GitBranchesTreeModel$TreeRoot" />
+        <item name="REMOTE" type="522ab5b6:GitBranchType$REMOTE" />
+      </path>
+      <path>
+        <item name="TreeRoot" type="41d8a9c2:GitBranchesTreeModel$TreeRoot" />
+        <item name="REMOTE" type="522ab5b6:GitBranchType$REMOTE" />
+        <item name="REMOTE/[origin]" type="f52d67ed:GitBranchesTreeModel$BranchesPrefixGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="IdeDocumentHistory">{
+  &quot;changedPaths&quot;: [
+    &quot;/home/mochi/cs233termproject/ATM_Tests.java&quot;,
+    &quot;/home/mochi/cs233termproject/AccountTests.java&quot;,
+    &quot;/home/mochi/cs233termproject/AtmTests.java&quot;,
+    &quot;/home/mochi/cs233termproject/AccountTest.java&quot;,
+    &quot;/home/mochi/cs233termproject/Main.java&quot;,
+    &quot;/home/mochi/cs233termproject/AddData.java&quot;,
+    &quot;/home/mochi/cs233termproject/Account.java&quot;,
+    &quot;/home/mochi/cs233termproject/Menu.java&quot;
+  ]
+}</component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JAVA">
+      <summary usageCount="43" lastUsage="1741027835144" />
+    </language>
+    <language id="Markdown">
+      <summary usageCount="6" lastUsage="1741027835060" />
+    </language>
+    <language id="TEXT">
+      <summary usageCount="11" lastUsage="1741022421707" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local">
+        <shellCommand>
+          <arg value="/usr/bin/zsh" />
+          <arg value="-i" />
+        </shellCommand>
+      </TerminalTabState>
+    </option>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AccountTest - 2025.03.03 at 09h 09m 33s.xml">
+      <configuration name="AccountTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtmTests - 2025.03.03 at 09h 09m 46s.xml">
+      <configuration name="AtmTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtmTests - 2025.03.03 at 09h 11m 19s.xml">
+      <configuration name="AtmTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info id="Bookmarks" show_stripe_button="false" side_tool="true" />
+      <window_info id="Pull Requests" show_stripe_button="false" />
+      <window_info id="Merge Requests" show_stripe_button="false" />
+      <window_info id="Learn" show_stripe_button="false" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23001066" />
+      <window_info id="Commit" order="1" weight="0.23001066" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32951146" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.32951146" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32951146" />
+      <window_info anchor="bottom" id="Run" order="4" show_stripe_button="false" weight="0.32951146" />
+      <window_info anchor="bottom" id="Services" order="5" weight="0.32951146" />
+      <window_info anchor="bottom" id="Build" order="6" weight="0.32951146" />
+      <window_info anchor="bottom" id="Find" order="7" show_stripe_button="false" weight="0.32951146" />
+      <window_info anchor="bottom" id="Debug" order="8" show_stripe_button="false" weight="0.32951146" />
+      <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="Coverage" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="Notifications" order="0" weight="0.3302239" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <unified_weights bottom="0.32951146" left="0.23001066" right="0.3302239" />
+    </layoutV2>
+    <layout-to-restore>
+      <window_info id="Bookmarks" show_stripe_button="false" side_tool="true" />
+      <window_info id="Pull Requests" show_stripe_button="false" />
+      <window_info id="Merge Requests" show_stripe_button="false" />
+      <window_info id="Learn" show_stripe_button="false" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23001066" />
+      <window_info id="Commit" order="1" weight="0.23001066" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="0" visible="true" weight="0.32951146" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32951146" />
+      <window_info anchor="bottom" id="Run" order="4" show_stripe_button="false" weight="0.32951146" />
+      <window_info anchor="bottom" id="Services" order="5" weight="0.32951146" />
+      <window_info anchor="bottom" id="Build" order="6" weight="0.32951146" />
+      <window_info anchor="bottom" id="Debug" order="7" show_stripe_button="false" weight="0.32951146" />
+      <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="Coverage" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="Notifications" order="0" weight="0.3302239" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <unified_weights bottom="0.32951146" left="0.23001066" right="0.3302239" />
+    </layout-to-restore>
+    <recentWindows>
+      <value>Project</value>
+      <value>Run</value>
+      <value>Commit</value>
+      <value>Notifications</value>
+      <value>Version Control</value>
+      <value>Build</value>
+      <value>Terminal</value>
+      <value>Problems View</value>
+      <value>Find</value>
+      <value>Debug</value>
+      <value>Services</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="448" y="147" key="#Project_Structure" timestamp="1741017412189">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="448" y="147" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1741017412189" />
+    <state x="892" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1741021876697">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="892" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1741021876697" />
+    <state x="686" y="268" key="#com.intellij.ide.util.MemberChooser" timestamp="1741026884928">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="686" y="268" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1741026884928" />
+    <state x="743" y="312" width="424" height="458" key="FileChooserDialogImpl" timestamp="1741027851030">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="743" y="312" width="424" height="458" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1741027851030" />
+    <state width="1794" height="288" key="GridCell.Tab.0.bottom" timestamp="1741027796257">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1794" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1741027796257" />
+    <state width="1794" height="288" key="GridCell.Tab.0.center" timestamp="1741027796257">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1794" height="288" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1741027796257" />
+    <state width="1794" height="288" key="GridCell.Tab.0.left" timestamp="1741027796257">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1794" height="288" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1741027796257" />
+    <state width="1794" height="288" key="GridCell.Tab.0.right" timestamp="1741027796257">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1794" height="288" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1741027796257" />
+    <state width="1794" height="288" key="GridCell.Tab.1.bottom" timestamp="1741019092591">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1794" height="288" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1741019092591" />
+    <state width="1794" height="288" key="GridCell.Tab.1.center" timestamp="1741019092590">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1794" height="288" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1741019092590" />
+    <state width="1794" height="288" key="GridCell.Tab.1.left" timestamp="1741019092590">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1794" height="288" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1741019092590" />
+    <state width="1794" height="288" key="GridCell.Tab.1.right" timestamp="1741019092590">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1794" height="288" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1741019092590" />
+    <state x="448" y="147" key="SettingsEditor" timestamp="1741021864992">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="448" y="147" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1741021864992" />
+    <state x="560" y="305" key="Vcs.Push.Dialog.v2" timestamp="1741027294432">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="305" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1741027294432" />
+    <state x="644" y="457" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1741017320903">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="644" y="457" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1080@0.0.1920.1080" timestamp="1741017320903" />
+    <state x="698" y="277" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1741017342787">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="698" y="277" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1741017342787" />
+    <state x="753" y="486" width="414" height="140" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1741027732849">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="753" y="486" width="414" height="140" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1741027732849" />
+    <state x="560" y="256" key="conflicts.dialog" timestamp="1741018717056">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="256" key="conflicts.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1741018717056" />
+    <state x="694" y="285" key="git4idea.branch.GitSmartOperationDialog" timestamp="1741017480473">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="694" y="285" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1741017480473" />
+    <state x="624" y="256" key="run.anything.popup" timestamp="1741022405205">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="624" y="256" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1741022405205" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Account_latest.java" />
+    <entry file="file://$PROJECT_DIR$/latest_menu.java" />
+    <entry file="file://$PROJECT_DIR$/cs233termproject.iml" />
+    <entry file="file://$PROJECT_DIR$/AtmTests.java" />
+    <entry file="file://$PROJECT_DIR$/NewClass.java" />
+    <entry file="file://$PROJECT_DIR$/Account_newVersion" />
+    <entry file="file://$PROJECT_DIR$/AccountTests" />
+    <entry file="file://$PROJECT_DIR$/AddData" />
+    <entry file="file://$PROJECT_DIR$/Main_newVersion" />
+    <entry file="file://$PROJECT_DIR$/Menu_newVersion" />
+    <entry file="jrt:///usr/lib/jvm/java-23-openjdk!/java.base/java/lang/NullPointerException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="53" />
+          <folding>
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#1191#1192#0" expanded="true" />
+            <element signature="e#1228#1229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1098">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="89" column="30" lean-forward="true" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI" />
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI" />
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cs233termproject</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>junit.jupiter</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

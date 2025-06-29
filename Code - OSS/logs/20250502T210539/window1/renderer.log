@@ -1,0 +1,8 @@
+2025-05-02 21:05:40.886 [info] Started local extension host with pid 6799.
+2025-05-02 21:05:42.781 [error] [Extension Host] (node:6799) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-05-02 21:05:43.585 [info] [perf] Render performance baseline is 27ms
+2025-05-02 21:05:43.867 [info] Auto updating outdated extensions. svelte.svelte-vscode
+2025-05-02 21:05:44.978 [info] Auto updating extension svelte.svelte-vscode
+2025-05-02 21:05:54.292 [info] Started local extension host with pid 7122.
+2025-05-02 21:05:57.044 [info] [perf] Render performance baseline is 51ms

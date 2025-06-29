@@ -1,0 +1,26 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/.cache/JetBrains/IdeaIC2024.3/demo/IdeaLearningProject" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/nathan-olson-a3" value="true" />
+        <entry key="$USER_HOME$/cs233termproject" value="true" />
+        <entry key="$USER_HOME$/school/CS233/assignment1" value="true" />
+        <entry key="$USER_HOME$/school/CS233/cs233termproject" value="true" />
+        <entry key="$USER_HOME$/school/CS233/java/n.olson_A2" value="true" />
+        <entry key="$USER_HOME$/school/CS233/termproject" value="true" />
+        <entry key="$USER_HOME$/school/CS233/week3_procedural_programming/Example4StaticExample" value="true" />
+        <entry key="$USER_HOME$/school/cs331/ass/a1/src" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/school/CS233/week3_procedural_programming" />
+        <option value="$USER_HOME$/school/CS233" />
+        <option value="$USER_HOME$" />
+      </list>
+    </option>
+  </component>
+</application>
