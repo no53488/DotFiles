@@ -1,9 +1,0 @@
-2025/06/03-13:00:13.067 50c Reusing MANIFEST /home/mochi/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2025/06/03-13:00:13.068 50c Recovering log #30
-2025/06/03-13:00:13.070 50c Reusing old log /home/mochi/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000030.log 
-2025/06/03-13:00:55.481 56e Compacting 1@1 + 1@2 files
-2025/06/03-13:00:55.492 56e Generated table #33@1: 666 keys, 322650 bytes
-2025/06/03-13:00:55.493 56e Compacted 1@1 + 1@2 files => 322650 bytes
-2025/06/03-13:00:55.494 56e compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/06/03-13:00:55.494 56e Delete type=2 #29
-2025/06/03-13:00:55.494 56e Delete type=2 #31
