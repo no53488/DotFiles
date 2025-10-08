@@ -117,7 +117,9 @@
       <eventcontext
          id="rect"
          style="fill:blue;"
-         usecurrent="1" />
+         usecurrent="1"
+         width="536.623304472198"
+         height="331.651438315083" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -396,7 +398,8 @@
     <eventcontext
        id="connector"
        style="fill:none;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-width:1px;stroke-linecap:butt;"
-       selcue="1" />
+       selcue="1"
+       curvature="0" />
     <eventcontext
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
@@ -615,9 +618,16 @@
        append_extension="1"
        path="">
       <group
-         id="exportarea" />
+         id="exportarea"
+         value="drawing" />
       <group
          id="defaultxdpi" />
+      <group
+         id="batchexportarea"
+         value="layer" />
+      <group
+         id="defaultdpi"
+         value="290.285705566406" />
     </group>
     <group
        id="save_as"
@@ -625,7 +635,8 @@
        append_extension="1"
        enable_preview="1"
        path=""
-       use_current_dir="1" />
+       use_current_dir="1"
+       enable_svgexport="0" />
     <group
        id="save_copy"
        default=""
@@ -730,7 +741,7 @@
        value="12" />
     <group
        id="cursortolerance"
-       value="8.0" />
+       value="8" />
     <group
        id="dragtolerance"
        value="4.0" />
@@ -977,6 +988,38 @@
        id="threading" />
     <group
        id="ruler" />
+    <group
+       id="snapping"
+       snap-bbox="1"
+       snap-bbox-edge="1"
+       snap-bbox-corner="1"
+       snap-bbox-edge-midpoint="0"
+       snap-bbox-center="0"
+       simple-snap-bbox="1"
+       snap-node-category="1"
+       snap-path="1"
+       snap-path-intersection="0"
+       snap-node-cusp="1"
+       snap-node-smooth="1"
+       snap-line-midpoint="1"
+       snap-line-tangential="0"
+       snap-line-perpendicular="0"
+       simple-snap-nodes="1"
+       snap-alignment="0"
+       snap-alignment-self="0"
+       snap-distribution="0"
+       simple-snap-alignment="0"
+       snap-others="1"
+       snap-object-midpoint="0"
+       snap-rotation-center="0"
+       snap-text-baseline="1"
+       snap-path-mask="1"
+       snap-path-clip="1"
+       snap-page-border="1"
+       snap-page-margin="1"
+       snap-grid="1"
+       snap-grid-line="1"
+       snap-guide="1" />
   </group>
   <group
      id="extensions"
@@ -985,10 +1028,10 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="fill:#000000;text-orientation:auto">
+     style="fill:#3baef1;text-orientation:auto;stroke-width:11.33858268;stroke:#000000;stroke-linecap:round;stroke-linejoin:round">
     <group
-       width="1876"
-       height="1003"
+       width="1040"
+       height="1027"
        x="0"
        y="0"
        maximized="1"

@@ -1,7 +1,9 @@
 # GIMP user context
 
-(tool "gimp-paintbrush-tool")
+(tool "gimp-color-picker-tool")
 (paint-info "gimp-paintbrush")
+(foreground
+    (color "HSVA float" 16 "\344\26O\77\53\367\264\76\232\231\31\77\0\0\200\77" 0))
 (brush "2. Hardness 050")
 (dynamics "Pressure Size")
 (mybrush "100% Opaque")

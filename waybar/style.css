@@ -1,6 +1,9 @@
-@define-color background rgba(249, 169, 241, 0.8);
-@define-color module rgba(249,74,144,0.8);
-@define-color words #000000;
+@define-color background rgba(171, 22, 0, 0.9);
+/* purple @define-color background rgba(64, 59, 120, 0.9);*/
+
+/* pink @define-color module rgba(142,84,143,0.8); */
+@define-color module rgba(252,117,122,0.8); 
+@define-color words #FFFFFF;
 * {
     border-radius: 4px;
     font-family: Roboto, Helvetica, Arial, sans-serif;

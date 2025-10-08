@@ -7,6 +7,7 @@ text/calendar=userapp-Thunderbird-2DF6Z2.desktop
 application/x-extension-ics=userapp-Thunderbird-2DF6Z2.desktop
 x-scheme-handler/webcals=userapp-Thunderbird-2DF6Z2.desktop
 application/pdf=firefox.desktop
+x-scheme-handler/vrcx=VRCX.desktop
 
 [Added Associations]
 x-scheme-handler/mailto=userapp-Thunderbird-4ZL4Z2.desktop;
