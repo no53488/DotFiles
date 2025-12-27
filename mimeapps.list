@@ -15,3 +15,5 @@ x-scheme-handler/mid=userapp-Thunderbird-4ZL4Z2.desktop;
 x-scheme-handler/webcal=userapp-Thunderbird-2DF6Z2.desktop;
 x-scheme-handler/webcals=userapp-Thunderbird-2DF6Z2.desktop;
 application/pdf=firefox.desktop;
+image/png=imv.desktop;
+image/jpeg=gimp.desktop;

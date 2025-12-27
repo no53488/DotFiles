@@ -1,9 +1,18 @@
-@define-color background rgba(171, 22, 0, 0.9);
+/* nms@define-color background rgba(171, 22, 0, 0.9); */
+/* nms @define-color module rgba(252,117,122,0.8); */ 
 /* purple @define-color background rgba(64, 59, 120, 0.9);*/
-
 /* pink @define-color module rgba(142,84,143,0.8); */
-@define-color module rgba(252,117,122,0.8); 
-@define-color words #FFFFFF;
+
+/* 
+ * arcRed = fd090b
+ * arcYellow = fbcf09
+ * arcGreen = 2df185
+ * arcBlue = 85f0e6
+*/ 
+
+@define-color background rgba(253, 9, 11, 1);
+@define-color module rgba(186, 11, 6,0.9);
+@define-color words #fff;
 * {
     border-radius: 4px;
     font-family: Roboto, Helvetica, Arial, sans-serif;

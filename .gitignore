@@ -2,7 +2,7 @@ retroarch/
 discord/
 spotify/
 yay/
-**/logs/
+**/logs/*
 gh/
 godot/
 btop/
@@ -30,4 +30,8 @@ Code\ -\ OSS/
 Deezer/
 JetBrains/
 VRCX/
-
+GIMP/
+inkscape/
+Valve\ Corporation/
+torbrowser/
+whoozle.github.io/

@@ -10,3 +10,10 @@ vim.cmd([[
     set shiftwidth=4 smarttab
     set expandtab
 ]])
+
+vim.filetype.add({
+    filename = {
+        [".svelte"] = "svelte",
+    },
+})
+vim.g.editorconfig = false
