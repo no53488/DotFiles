@@ -8,165 +8,53 @@
 -- * disable/enabled LazyVim plugins
 -- * override the configuration of LazyVim plugins
 return {
+    -- add gruvbox
+    { "ellisonleao/gruvbox.nvim" },
+
+    -- Configure LazyVim to load gruvbox
     {
         "LazyVim/LazyVim",
         opts = {
-        colorscheme = "gruvbox",
-        }
-    },
-    {
-        "iamcco/markdown-preview.nvim",
-        cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
-        build = "cd app && yarn install",
-        init = function()
-            vim.g.mkdp_filetypes = { "markdown" }
-        end,
-        ft = { "markdown" },
-    },
-    -- add gruvbox
-    { "ellisonleao/gruvbox.nvim", priority = 1000 , config = true, opts = ...},
-    -- Configure LazyVim to load gruvbox
-    {"nvim-mini/mini.icons", opts = {} },
-
-    { "nvim-tree/nvim-web-devicons", opts = {} },
-    -- change trouble config
-    {
-        "folke/trouble.nvim",
-        -- opts will be merged with the parent spec
-        opts = { use_diagnostic_signs = true },
-    },
-
-    -- disable trouble
-    { "folke/trouble.nvim", enabled = true},
-
-
-    -- change some telescope options and a keymap to browse plugin files
-    {
-        "nvim-telescope/telescope.nvim",
-        keys = {
-            -- add a keymap to browse plugin files
-            -- stylua: ignore
-            {
-                "<leader>fp",
-                function() require("telescope.builtin").find_files({ cwd = require("lazy.core.config").options.root }) end,
-                desc = "Find Plugin File",
-            },
-        },
-        -- change some options
-        opts = {
-            defaults = {
-                layout_strategy = "horizontal",
-                layout_config = { prompt_position = "top" },
-                sorting_strategy = "ascending",
-                winblend = 0,
-            },
+            colorscheme = "gruvbox",
         },
     },
-
-    -- add pyright to lspconfig
-    {
-        "neovim/nvim-lspconfig",
-        ---@class PluginLspOpts
-        opts = {
-            ---@type lspconfig.options
-            servers = {
-                -- pyright will be automatically installed with mason and loaded with lspconfig
-                pyright = {},
-            },
-        },
-    },
-
-    -- add tsserver and setup with typescript.nvim instead of lspconfig
-    {
-        "neovim/nvim-lspconfig",
-        dependencies = {
-            "jose-elias-alvarez/typescript.nvim",
-            init = function()
-                require("lazyvim.util").lsp.on_attach(function(_, buffer)
-                    -- stylua: ignore
-                    vim.keymap.set( "n", "<leader>co", "TypescriptOrganizeImports", { buffer = buffer, desc = "Organize Imports" })
-                    vim.keymap.set("n", "<leader>cR", "TypescriptRenameFile", { desc = "Rename File", buffer = buffer })
-                end)
-            end,
-        },
-        ---@class PluginLspOpts
-        opts = {
-        ---@type lspconfig.options
-        servers = {
-        -- tsserver will be automatically installed with mason and loaded with lspconfig
-        tsserver = {},
-        },
-        -- you can do any additional lsp server setup here
-        -- return true if you don't want this server to be setup with lspconfig
-        ---@type table<string, fun(server:string, opts:_.lspconfig.options):boolean?>
-        setup = {
-            -- example to setup with typescript.nvim
-            tsserver = function(_, opts)
-                    require("typescript").setup({ server = opts })
-                    return true
-            end,
-            -- Specify * to use this function as a fallback for any server
-                -- ["*"] = function(server, opts) end,
-        },
-        },
-    },
-
+    -- Enable auto rebuild from treesitter
     {
         "nvim-treesitter/nvim-treesitter",
         lazy = false,
-        branch = 'main',
-        build = ':TSUpdate',
-        opts = {
-        ensure_installed = {
-        "bash",
-        "html",
-        "javascript",
-        "json",
-        "lua",
-        "markdown",
-        "markdown_inline",
-        "python",
-        "query",
-        "regex",
-        "tsx",
-        "typescript",
-        "vim",
-        "yaml",
-        "svelte",
-        },
-        },
+        build = ":TSUpdate",
     },
-
+    -- add Snacks config
     {
-        "nvim-lualine/lualine.nvim",
-        event = "VeryLazy",
-        opts = function()
-            return {
-            --[[add your custom lualine config here]]
-            }
-        end,
-    },
-
-
-    {
-        "mason-org/mason.nvim",
+        "snacks.nvim",
         opts = {
-            ensure_installed = {
-            "stylua",
-            "shellcheck",
-            "shfmt",
-            "flake8",
+            dashboard = {
+                preset = {
+                    pick = function(cmd, opts)
+                        return LazyVim.pick(cmd, opts)()
+                    end,
+                    header = [[
+████████╗██████╗█████═╗ ██████╗ █████╗  █████╗ ████████╗           
+████████║█╔════╝█╔══██║ █╔═══█║██╔══██╗██╔══██╗████████║   /|、♡   
+╚══██╔══╝████╗  █████╔╝ █║   █║█╔╝  ╚═╝███████║╚══██╔══╝  (` - 7   
+   ██║   █╔══╝  █╔══██╗ █║   █║██╗  ██╗██╔══██║   ██║     |, , \  
+   ██║   ██████╗█║  ╚██╗██████║ █████╔╝██║  ██║   ██║     じしˍ,)ノ
+   ╚═╝   ╚═════╝╚╝   ╚═╝╚═════╝ ╚════╝ ╚═╝  ╚═╝   ╚═╝              ]],
+                -- stylua: ignore
+                ---@type snacks.dashboard.Item[]
+                keys = {
+                { icon = " ", key = "f", desc = "Find File", action = ":lua Snacks.dashboard.pick('files')" },
+                { icon = " ", key = "n", desc = "New File", action = ":ene | startinsert" },
+                { icon = " ", key = "g", desc = "Find Text", action = ":lua Snacks.dashboard.pick('live_grep')" },
+                { icon = " ", key = "r", desc = "Recent Files", action = ":lua Snacks.dashboard.pick('oldfiles')" },
+                { icon = " ", key = "c", desc = "Config", action = ":lua Snacks.dashboard.pick('files', {cwd = vim.fn.stdpath('config')})" },
+                { icon = " ", key = "s", desc = "Restore Session", section = "session" },
+                { icon = " ", key = "x", desc = "Lazy Extras", action = ":LazyExtras" },
+                { icon = "󰒲 ", key = "l", desc = "Lazy", action = ":Lazy" },
+                { icon = " ", key = "q", desc = "Quit", action = ":qa" },
+                },
+                },
             },
         },
-    },
-
-    {
-        "lervag/vimtex",
-        lazy = false,     -- we don't want to lazy load VimTeX
-        -- tag = "v2.15", -- uncomment to pin to a specific release
-        init = function()
-        -- VimTeX configuration goes here, e.g.
-            vim.g.vimtex_view_method = "zathura"
-        end
     },
 }

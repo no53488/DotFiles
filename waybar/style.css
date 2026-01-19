@@ -10,27 +10,27 @@
  * arcBlue = 85f0e6
 */ 
 
-@define-color background rgba(253, 9, 11, 1);
-@define-color module rgba(186, 11, 6,0.9);
+@define-color background rgba(64, 59, 120, 0.9);
+@define-color module rgba(142,84,143,0.8);
 @define-color words #fff;
+
 * {
-    border-radius: 4px;
     font-family: Roboto, Helvetica, Arial, sans-serif;
     font-size: 12px;
-    min-height: 0px;
 }
 
-window#waybar {
+#waybar {
     background: @background;
     color: @words;
+    min-height: 34px;
 }
 
 tooltip {
-  background: rgba(43, 48, 59, 0.5);
-  border: 1px solid rgba(100, 114, 125, 0.5);
+    background: rgba(43, 48, 59, 0.5);
+    border: 1px solid rgba(100, 114, 125, 0.5);
 }
 tooltip label {
-  color: @words;
+    color: @words;
 }
 
 #workspaces button {
@@ -39,32 +39,23 @@ tooltip label {
 
 #workspaces button.focused {
     background: #64727D;
-    border-bottom: 3px solid white;
 }
 
 .module {
-    background: @module;
     border-radius: 20px;
-    padding: 0px 15px 0px 15px;
-    margin: 2px 1px 2px -2px;
-
-}
-
-#mode, #clock, #battery {
-}
-
-#mode {
-    background: #64727D;
-    border-bottom: 3px solid white;
+    background: @module;
+    padding: 0px 15px;
+    margin: 2px 1px 2px 2px;
 }
 
 #clock {
+    padding: 4px 10px 0px 10px;
     background-color: #333;
     color:white;
 }
 
 #battery {
-    padding: 0px 15px 0px 10px;
+    padding: 0px 18px 0px 10px;
     color: black;
 }
 
