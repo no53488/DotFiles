@@ -11,6 +11,11 @@ return {
     -- add gruvbox
     { "ellisonleao/gruvbox.nvim" },
 
+    {
+        "lervag/vimtex",
+        lazy=false,
+    },
+
     -- Configure LazyVim to load gruvbox
     {
         "LazyVim/LazyVim",
