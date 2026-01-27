@@ -14,14 +14,17 @@ return {
     {
         "lervag/vimtex",
         lazy=false,
+        init = function()
+            vim.g.vimtex_view_method = "zathura"
+        end
     },
 
-    -- Configure LazyVim to load gruvbox
     {
         "LazyVim/LazyVim",
         opts = {
             colorscheme = "gruvbox",
         },
+        
     },
     -- Enable auto rebuild from treesitter
     {
