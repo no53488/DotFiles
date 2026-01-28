@@ -4,6 +4,7 @@ spotify/
 yay/
 **/logs/*
 gh/
+dconf/
 godot/
 btop/
 Electron/
